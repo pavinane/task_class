@@ -19,11 +19,20 @@ No language indicated, so no syntax highlighting.
 But let's throw in a <b>tag</b>.
 ```
 
+```java script
 var s = "JavaScript syntax highlighting";
+alert(s);var s = "JavaScript syntax highlighting";
 alert(s);
+
 
 s = "Python syntax highlighting"
 print s
+
+
+s = "Python syntax highlighting"
+print s
+```
+
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
@@ -47,5 +56,5 @@ Quote break.
         <dd>Is something people use sometimes.</dd>
 
    <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+  <dd>Does *not* work __very__ well. Use HTML <em>tags</em>.</dd>
 </dl>
